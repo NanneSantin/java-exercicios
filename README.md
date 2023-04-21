@@ -136,3 +136,66 @@ Tipos:
 - Instância: dentro de classes.
 
 ---
+
+# Aula 3- Estruturas de Repetição e Arrays
+
+- O real poder dos computadores está na sua habilidade para repetir uma operação ou uma série de operações várias vezes.
+- Cada repetição é chamada de laço (loop) é um dos conceitos básicos da programação estruturada.
+- Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadascondições sejam satisfeitas.
+- Essas condições são representadas por expressões lógicas.
+- As estruturas de repetição podem ser classificadas em:
+    - Repetição com teste no início (while);
+    - Repetição com teste no final (do-while);
+    - Repetição contada (for).
+- O comando break é utilizado para terminar de forma abrupta uma repetiçã.
+- Quando o comando continue é executado, os comandos restantes da repetição são ignorados e o programa volta a testar novamente ou não.
+
+### While
+Executa um bloco de código enquanto uma condição for verdadeira.
+
+### Do While
+Executa um bloco de código pelo menos uma vez e depois continua a executá-lo enquanto uma condição for verdadeira.
+
+### For
+Permite executar um bloco de código um número específico de vezes, controlando o contador da iteração através de uma variável.
+
+## Operadores de Incremento e Decremento
+
+### Pré-fixados
+Incrementam ou decrementam o valor da variável antes de serem utilizados em uma expressão.
+- (++numero): numero = numero + 1; retorna o numero.
+- (--numero): numero = numero - 1; retorna o numero.
+
+### Pós-fixados
+Primeiro utilizam o valor atual da variável na expressão e depois incrementam ou decrementam o valor da variável.
+- (numero++): retorna o numero; numero = numero + 1.
+- (numero--): retorna o numero; numero = numero - 1.
+
+## Operações aritméticas
+```sh
+numero += k; //numero = numero + k;
+```
+```sh
+numero -= k; //numero = numero - k;
+```
+```sh
+numero *= k; //numero = numero * k;
+```
+```sh
+numero /= k; //numero = numero / k;
+```
+
+## Arrays
+Array é um objeto utilizado para armazenar sequencialmente dados do mesmo tipo. Ou seja, você guarda vários dados do mesmo tipo em uma única variável.
+- Permanecem com o mesmo tamanho depois de criados;
+- Sempre começam com zero;
+- Array Unidimensional: apenas uma estrutura de armazenamento. c [0] = 25 --- o número 25 está armazenado na posição 0 do array c.
+- Array Multidimensional: armazena mais de uma estrutura. a [0][0] = 32 --- o número 32 está armazenado na linha 0, coluna 0 do array a.
+
+---
+
+## _LINKS ÚTEIS_
+
+Fonte: [GitHub Camila Cavalcante](https://github.com/cami-la/loops-e-arrays) :heart_eyes:
+
+Exercícios: [Estrutura de Repetição](https://wiki.python.org.br/EstruturaDeRepeticao), [Arrays Unidimensionais](https://wiki.python.org.br/ExerciciosListas), [Arrays Multidimensionais](https://www.slideshare.net/loianeg/curso-java-basico-exercicios-aula-20?from_action=save) 
