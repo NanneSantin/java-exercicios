@@ -67,3 +67,81 @@ O objetivo do JavaDoc é fornecer documentação clara e concisa para o código-
 [JavaDoc](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html)
 
 ---
+
+# Aula 2 - Controle de Fluxo
+
+São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+Os tipos de controle de fluxos são:
+
+- **Decisão:** if, if-else, if-else-if, switch e operador ternário;
+- **Repetição:** for, while e do-while;
+- **Interrupção:** break, continue e return.
+
+---
+## Decisão
+Estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução.
+
+**IF**
+```sh
+if (condição){
+}
+```
+
+```sh
+if (condição){
+}else{
+}
+```
+
+```sh
+if (condição){
+}else if (condição 2){
+}else{
+}
+```
+
+**Operador ternário**
+
+```sh
+condição ? true : false;
+```
+
+```sh
+condição ? true : null; //o null é para quando o resultado for false não é para fazer nada.
+```
+- (?) se
+- (:) então
+
+**Switch**
+
+```sh
+switch (variavel){
+    case1 :
+    break;
+    case2 :
+    break;
+    case ... :
+    break;
+    default :
+    break;
+}
+```
+
+### Boas práticas
+
+- Switch é para valores exatos e if para expressões booleanas;
+- Evitar usar default do switch para cases genéricos;
+- Evitar o efeito "flecha" do if;
+- Evitar muitos if's aninhados.
+
+---
+
+## Blocos
+
+Grupo de 0 ou mais códigos os quais trabalham em conjunto para executar uma operação.
+Tipos:
+- Locais: dentro de métodos;
+- Estáticos: dentro de classes;
+- Instância: dentro de classes.
+
+---
