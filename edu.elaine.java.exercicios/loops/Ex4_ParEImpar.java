@@ -1,7 +1,10 @@
 package loops;
 
 import java.util.Scanner;
-
+/*
+Faça um programa que peça N números inteiros.
+Mostre a quantidade de números pares e ímpares.
+ */
 public class ParEImpar {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
