@@ -1,11 +1,10 @@
 # Aula 1 - Sintaxe Java
----
+
 **JavaBeans:** é uma convenção de escrita de código em Java. É uma especificação que define um conjunto de regras e convenções que devem ser seguidas para criar componentes reutilizáveis em Java. Essas regras incluem, por exemplo, a definição de atributos privados com métodos públicos para acessá-los (getters e setters), além de outras convenções para garantir a interoperabilidade entre diferentes componentes.
 Seguir as regras do JavaBeans pode tornar o código mais fácil de entender, manter e reutilizar em diferentes aplicações e plataformas.
 
 [Convenções de Código Java](https://www.devmedia.com.br/convencoes-de-codigo-java/23871)
 
----
 
 ## Operadores
 
@@ -34,29 +33,23 @@ Seguir as regras do JavaBeans pode tornar o código mais fácil de entender, man
 - **Lógicos:**
     - Conjunção: (&&) operador lógico E - operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdadeiras.
     - Disjunção: (||) operador lógico OU - operação que só é falsa quando ambos os operandos ou expressões envolvidas são falsos.
----
 
 ## Métodos
 
 Métodos são funções ou sub-rotinas disponíveis dentro das classes.
 Devem ser nomeados com verbos no infinitivo e usando o padrão camelCase.
 
----
 
 ## Escopo
 
 Ambiente onde uma variável pode ser acessada. Em Java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
 Se colocar uma variável dentro de um método, não é possível acessar essa variável em outro método, mas se a variável for declarada no escopo da classe, é possível acessar essa variável em todos os métodos da classe.
 
----
-
 ## Palavras reservadas
 
 Palavras reservadas são identificadores de uma linguagem que já possuem uma finalidade específica, portanto, não podem ser utilizadas para nomear variáveis, classes, métodos ou atributos. 
 
 A linguagem Java possui 52 palavras reservadas. [Ver aqui](https://www.devmedia.com.br/o-que-significa-cada-palavra-reservada/8320)
-
----
 
 ## JavaDoc
 
@@ -77,7 +70,6 @@ Os tipos de controle de fluxos são:
 - **Repetição:** for, while e do-while;
 - **Interrupção:** break, continue e return.
 
----
 ## Decisão
 Estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução.
 
@@ -134,7 +126,6 @@ switch (variavel){
 - Evitar o efeito "flecha" do if;
 - Evitar muitos if's aninhados.
 
----
 
 ## Blocos
 
